@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "environment": "Development",
+  "workspaceId": "77605000000251118",
+  "tables": ["Workspaces","Memberships","Clients","Templates","TemplateItems","DocumentRequests","RequestItems","FileRecords","Invitations","ReminderPolicies","AuditEvents","Notifications","Subscriptions"],
+  "temporaryLegacyTable": "AppState"
+}
