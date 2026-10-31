@@ -23,6 +23,21 @@ Deployed on 31 October 2026 to Catalyst project `77605000000235364` in the Devel
 
 - `Clients` — structured client records
 - `AppState` (`77605000000235764`) — Development sandbox application state
+- Normalized v1 tables: `Workspaces`, `Memberships`, `Templates`, `TemplateItems`,
+  `DocumentRequests`, `RequestItems`, `FileRecords`, `Invitations`,
+  `ReminderPolicies`, `AuditEvents`, `Notifications`, and `Subscriptions`.
+- Seed workspace ID: `77605000000251118`.
+- The legacy `AppState` table is no longer used by the current source.
+
+## Cross-origin access
+
+- Slate domain registered for Catalyst CORS: `clearchase-slate-iunkdnln.onslate.in`
+- CORS record ID: `77605000000236380`
+
+## Repository
+
+- Source: `https://github.com/ohosolutions-netizen/clearchase`
+- Normalized backend commit: `76ed05d`
 - Health endpoint: `/api/v1/health`
 
 The health endpoint was verified with HTTP 200 and Catalyst execution headers.
